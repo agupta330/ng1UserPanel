@@ -1,0 +1,35 @@
+{
+  "name": "ng1UserPanel",
+  "version": "0.0.0",
+  "main": "./dist/ng1UserPanel.js",
+  "description": "HTML5 based Copy-to-Clipboard with AngularJS.",
+  "homepage": "https://github.com/agupta330/ng1UserPanel",
+  "private": false,
+  "authors": [
+    "Ian Grail"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agupta330/ng1UserPanel.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "angular-resource": "~1.5.0",
+    "angular": "~1.5.0",
+    "angular-mocks": "~1.4.0",
+    "bootstrap": "3.3.7",
+    "angular-bootstrap": "2.5.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build.conf.js",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ]
+}
