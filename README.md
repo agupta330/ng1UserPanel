@@ -29,7 +29,8 @@ npm install ng1UserPanel
   <link rel="stylesheet" type="text/css" href="bower_components/ng1UserPanel/src/css/userpicker.css">
   ```
 3. This directive depends on other dependencies like angular,bootstrap to run it
- ```<script src = "bower_components/angular/angular.min.js"></script>
+ ```
+  	<script src = "bower_components/angular/angular.min.js"></script>
     <script src = "bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
  ```
@@ -41,5 +42,8 @@ npm install ng1UserPanel
 
 5. Add copy-text directive to the wanted element, example:
   ```html
-  <span copy-text>Text To Copy</span>
+  {{viewmode="large";""}}
+
+  <div user type="picker" user-model="usermodel1" view-type="viewmode" user-id="userid1" 
+  user-email="useremail1" switch-mode="mode" user-type="employee"></div>
   ```
